@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PFDinDisplayPro-Regular', sans-serif;
+    /* width: 1349px; */
+}
+.header{
+    width: 1349px;
+    height: 66px;
+    padding: 35px 0 35px 0;
+    border-bottom: 3px solid rgb(179, 177, 177);
+    background-color: #fff;
+}
+.header__menu{
+    margin: 0 auto;
+    width: 1170px;
+    height: 66px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 64px;
+}
+.menu__menu-link{
+    margin-left: 50px;
+}
+.menu-link{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.link-item{
+    margin-right: 30px;
+}
+.link{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link:hover{
+    color: #FF8000;
+    border-bottom: 5px solid #FF8000;
+    padding-bottom: 10px;
+}
+.menu__btn-lang{
+    margin-left: 50px;
+}
+.btn-lang{
+    width: 100px;
+    height: 50px;
+    padding: 12px 22px;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    background-color: #FF8000;
+    cursor: pointer;
+}
+.btn-lang:hover{
+    background-color: #fff;
+    border: 1px solid #FF8000;
+    color: #FF8000;
+    font-weight: bolder;
+}
+
+
+
+
+
+.login-page{
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.left-block{
+    width: 585px;
+    height: 500px;
+    background-color: #FF8000;
+    border-bottom-left-radius: 20px;
+}
+.left-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.left-text{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.left-text h3{
+    font-size: 18px;
+}
+.text-left{
+    text-align: start;
+}
+.text-left li{
+    font-size: 17px;
+}
+.icon-item{
+    width: 20px;
+    height: 20px;
+}
+.download{
+    display: flex;
+    margin-left: 20px;
+}
+.ios{
+    margin-left: 20px;
+}
+.phone{
+    width: 292px;
+    height: 450px;
+}
+.right-img{
+    margin-top: 25px;
+}
+
+
+
+
+
+.right-block{
+    width: 585px;
+    height: 500px;
+    background-color: #fff;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-container{
+}
+.form-control{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-control input{
+    width: 350px;
+    border: 0;
+    border-bottom: 3px solid #FF8000;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    outline: none;
+}
+.login{
+    background-image: url(../img/icons8-ios-50.png);
+    background-repeat: no-repeat;
+    background-position: 4px;
+    background-size: 30px 30px;
+}
+.pass{
+    background-image: url(../img/icons8-ключ-50.png);
+    background-repeat: no-repeat;
+    background-position: 4px;
+    background-size: 30px 30px;
+}
+.text-humo{
+    display: flex;
+    justify-content: center;
+    color: #FF8000;
+}
+.line{
+    width: 100px;
+    border: 3px solid #FF8000;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.btn-sign{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    margin-top: 60px;
+    border-radius: 20px;
+    background-color: #FF8000;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-sign:hover{
+    color: #FF8000;
+    border: 1px solid #FF8000;
+    background-color: #fff;
+}
+
+
+
+
+.footer{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 651px;
+    margin: 0;
+    margin-top: 55px;
+}
+.partner{
+    margin: 0 auto;
+    width: 1170px;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partner span{
+    font-size: 30px;
+    margin-top: -80px;
+}
+.partner-content{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: -50px;
+}
+.partner-content li{
+    margin-right: 43px;
+}
+.partners-item{
+    width: 160px;
+    height: 61px;
+}
+
+
+
+.foter{
+    width: 1349px;
+    height: 490px;
+    background: #000;
+    opacity: .6;
+}
